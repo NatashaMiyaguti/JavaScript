@@ -3,16 +3,17 @@ cadastre-os em uma lista. Caso o número já esteja lá dentro, ele não será
 adicionado. No final, serão exibidos todos os valores únicos digitados, em ordem
 crescente. */
 
- let numeros = [];
+const prompt = require("prompt-sync")();
 
-for let valor in (item){
-let valorUsuario = prompt ('Digite um numero: ');
+let numeros = [];
 
-if 
-numeros.push(valorUsuario);
+let rodadas = prompt("Digite a quantidade de numeros quer cadastrar: ");
+for (let n = 0; n < rodadas; n++) {
+  let valorUsuario = prompt("Digite um numero: ");
 
-console.log (valorUsuario);
-
+  if (numeros.includes(valorUsuario)== false) { // se numeros contem valor do usuario. devolve True ou False
+    numeros.push(valorUsuario);
+  }
 }
 
-
+console.log(`${numeros}`);

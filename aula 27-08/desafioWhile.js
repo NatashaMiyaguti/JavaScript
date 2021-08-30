@@ -28,17 +28,4 @@ while (index < products.length) {
 
 console.log(total);
 
-// const prompt = require ('prompt-sync')();
 
-// function quantidadeProduto (valor) {
-//     return +prompt ("Escreva a quantidade de produtos: ")
-// }
-// let quantidade = 0
-// const lista = ["Coca", 9, quantidadeProduto (quantidade), "Toddynho", 3.5, quantidadeProduto (quantidade), "Doritos", 2, quantidadeProduto (quantidade)];
-
-// console.log ("Mercado sexta da Maldade\n")
-// let i = 0
-// let soma = 0
-// while (i < lista.length) {
-//     soma = soma + lista[i+1]*lista [i+2]
-//     console.log (`${lista [i]} - R$${lista [i+1]}`)

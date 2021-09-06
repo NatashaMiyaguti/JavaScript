@@ -1,11 +1,3 @@
-/* Simulador de dados de um Cassino: a ideia é simularmos o funcionamento de um Cassino Clandestino: criaremos diferentes tipos de dados e de forma aleatória mostraremos os valores tirados de cada dado */
-
-// EXEMPLO: Celulares
-// Classes --> Fábrica de objetos
-// Atributos --> Características dos objetos(celular: marca, peso, cor e tamanho)
-// Métodos--> Ações (enviar mensagem, fazer chamada, abrir facebook)
-
-  //Dados iniciam com letras maiusculas
 
  /* Simulador de dados de um Cassino: A ideia é simularmos o funcionamento de dados de um Cassino Clandestino: criaremos diferentes tipos de dados e de FORMA ALEATÓRIA mostraremos os valores tirados em cada dado */
 
